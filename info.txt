@@ -1,0 +1,12 @@
+Created Controllers package as well as a register controller and made the website 
+use that when registering
+
+
+packages:
+Web: the Website
+Server: the Server
+Common: Code shared througout the server, the web, or the mobile app
+Controllers: Common Controllers shared from web to mobile
+
+
+Currently on video 8

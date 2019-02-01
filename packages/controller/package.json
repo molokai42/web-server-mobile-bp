@@ -5,7 +5,10 @@
   "typings": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc",
+    "introspect": "yarn apollo-codegen introspect-schema http://localhost:4000 --output schema.json",
+    "generate": "yarn gql-gen --config codegen.yml",
+    "gen-types": "yarn introspect && yarn generate"
   },
   "dependencies": {
     "graphql": "^14.1.1",
@@ -18,13 +21,20 @@
     "@types/node": "^10.12.18",
     "@types/react": "^16.7.21",
     "@types/react-dom": "^16.0.11",
-    "apollo-codegen": "^0.20.2",
+    "apollo": "^2.4.1",
+    "apollo-codegen": "^0.20.0",
+    "graphql-code-generator": "^0.16.0",
+    "graphql-codegen-typescript-client": "^0.16.0",
+    "graphql-codegen-typescript-common": "^0.16.0",
+    "graphql-codegen-typescript-react-apollo": "^0.16.0",
+    "graphql-codegen-typescript-server": "^0.16.0",
     "rimraf": "^2.6.3",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
     "typescript": "^3.2.4"
   },
   "resolutions": {
-    "**/@types/react": "16.0.11"
+    "**/@types/react": "16.0.11",
+    "graphql": "^14.1.1"
   }
 }

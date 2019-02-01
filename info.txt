@@ -1,5 +1,14 @@
-connected register controller to the register form, emailing an email to the new registered
-email, the email contains a confirm email link that confirms that email in the database.
+Set up a Docker Container and connected the application to it. Now the container holds the app, its still 
+need to be set up so it crashes upon trying to run but its at least in a docker file
+
+
+**IMPORTANT VID 9** **DONT DELETE**
+Created a gen-types file and gen-schema file for the register controller, had to be
+ done differently from bens, may cause issues in the future if so follow along with 
+ https://github.com/benawad/codeponder/blob/master/packages/web/codegen.yml
+ ALSO
+ FUCKING DISCORD IT FOR HELP IF NECESSARY 
+ https://discordapp.com/channels/446854611937263616/446854611937263619/512692860680929300
 
 
 
@@ -10,5 +19,6 @@ Common: Code shared througout the server, the web, or the mobile app
 Controllers: Common Controllers shared from web to mobile
 
 
-Currently on video 9
-https://www.youtube.com/watch?v=ZYhKsX9Alic&index=11&list=PLN3n1USn4xlnfJIQBa6bBjjiECnk6zL6s
+Currently on video 11
+Deploying typescript server to dokku
+https://www.youtube.com/watch?v=AdHwBKKQHZ4

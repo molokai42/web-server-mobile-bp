@@ -1,5 +1,6 @@
-Created Controllers package as well as a register controller and made the website 
-use that when registering
+connected register controller to the register form, emailing an email to the new registered
+email, the email contains a confirm email link that confirms that email in the database.
+
 
 
 packages:
@@ -9,4 +10,4 @@ Common: Code shared througout the server, the web, or the mobile app
 Controllers: Common Controllers shared from web to mobile
 
 
-Currently on video 8
+Currently on video 9

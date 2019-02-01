@@ -8,17 +8,20 @@
     "build": "rimraf ./dist && tsc"
   },
   "dependencies": {
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
     "react": "^16.7.0",
+    "react-apollo": "^2.4.0",
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
     "@types/node": "^10.12.18",
     "@types/react": "^16.7.21",
     "@types/react-dom": "^16.0.11",
+    "rimraf": "^2.6.3",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
-    "typescript": "^3.2.4",
-    "rimraf": "^2.6.3"
+    "typescript": "^3.2.4"
   },
   "resolutions": {
     "**/@types/react": "16.0.11"
